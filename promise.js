@@ -35,7 +35,7 @@ function solve(){
             console.log(element);
             body.innerHTML+=`<tr>
             <th>${element[0]}</th>
-            <th>${element[1]}</th>
+            <th> time is ${element[1]}</th>
         </tr>`
         });
         body.innerHTML+=` <tr>
